@@ -1,16 +1,47 @@
-# flushoes
+# Shoe Store App
 
-A new Flutter project.
+The **Shoe Store App** is a mobile application developed with Flutter to showcase a collection of shoes. It provides a user-friendly interface for users to browse and purchase their favorite shoe items. The app includes features like filtering by shoe type, adding to favorites, and a shopping cart.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+![Screenshot_FULL](https://github.com/shujaatsunasra/FluShoes/assets/142157275/9bffe996-5736-4faa-aa96-8883dfa29255)
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Filtering:** Filter shoe items by type, e.g., "Running," "Sneaks," and more.
+- **Favorites:** Add and manage your favorite shoe items.
+- **Shopping Cart:** Easily add and remove items from your cart.
+- **Responsive Design:** Supports mobile, tablet, and desktop layouts.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+1. Clone this repository.
+2. Make sure you have Flutter installed.
+3. Run `flutter pub get` to install dependencies.
+4. Run `flutter run` to launch the app on your preferred device or emulator.
+
+## Usage
+
+- Browse through the collection of shoes.
+- Filter shoes based on your preferences.
+- Add and remove items from your favorites.
+- Add and remove items from your shopping cart.
+
+## Contributing
+
+Contributions are welcome. If you want to contribute to this project, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature.
+3. Implement your feature or bug fix.
+4. Test your changes.
+5. Submit a pull request.
+
+Feel free to contribute to improve the **Shoe Store App**. We appreciate your help in making it even better!
+
+## Contact
+
+For questions or support, please contact [Shujaat](https://github.com/shujaatsunasra).
+
+Enjoy exploring and shopping for shoes with the **Shoe Store App**!
+
