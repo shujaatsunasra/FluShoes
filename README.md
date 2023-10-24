@@ -4,9 +4,7 @@ The **Shoe Store App** is a mobile application developed with Flutter to showcas
 
 ## Screenshots
 
-![PR_3_FULL](https://github.com/shujaatsunasra/FluShoes/assets/142157275/81664fb4-b0ac-4348-af1f-0b27314cd5c8)
-
-
+![Screenshot 1](https://github.com/shujaatsunasra/FluShoes/blob/main/assets/142157275/81664fb4-b0ac-4348-af1f-0b27314cd5c8.png)
 
 ## Features
 
@@ -43,7 +41,7 @@ Feel free to contribute to improve the **Shoe Store App**. We appreciate your he
 
 ## Contact
 
-For questions or support, please contact [Shujaat]((https://github.com/shujaatsunasra).
+For questions or support, please contact [Shujaat](https://github.com/shujaatsunasra).
 
 Enjoy exploring and shopping for shoes with the **Shoe Store App**!
 
