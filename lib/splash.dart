@@ -1,5 +1,7 @@
 //?Splash Page
 
+// ignore_for_file: library_private_types_in_public_api, use_build_context_synchronously
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -49,7 +51,7 @@ class AnimatedText extends StatefulWidget {
   final String text;
   final TextStyle style;
 
-  AnimatedText({super.key, required this.text, required this.style});
+  const AnimatedText({super.key, required this.text, required this.style});
 
   @override
   _AnimatedTextState createState() => _AnimatedTextState();
@@ -94,7 +96,7 @@ class MinecraftBlock extends StatefulWidget {
   final String char;
   final Duration duration;
 
-  MinecraftBlock({super.key, required this.char, required this.duration});
+  const MinecraftBlock({super.key, required this.char, required this.duration});
 
   @override
   _MinecraftBlockState createState() => _MinecraftBlockState();

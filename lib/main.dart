@@ -1,3 +1,5 @@
+// ignore_for_file: library_private_types_in_public_api
+
 import 'package:animate_do/animate_do.dart';
 import 'package:flushoes/splash.dart';
 import 'package:flutter/material.dart';
@@ -135,7 +137,7 @@ class _HomePageState extends State<HomePage> {
                     size: 30,
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 15,
                 ),
                 GestureDetector(
@@ -365,11 +367,8 @@ class StaggeredAnimationItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final int delayMultiplier = index;
-    final Duration delay = Duration(milliseconds: 100 * delayMultiplier);
-
     return SlideInUp(
-      duration: Duration(seconds: 1),
+      duration: const Duration(seconds: 1),
       child: GestureDetector(
         onTap: () {
           Navigator.push(
@@ -723,7 +722,7 @@ class FavoritesPage extends StatelessWidget {
     final List<ShoeItemData> favorites = favoritesProvider.favorites;
 
     return Scaffold(
-      backgroundColor: Color(0xff1a1a1a),
+      backgroundColor: const Color(0xff1a1a1a),
       appBar: AppBar(
         toolbarHeight: 80,
         elevation: 0,
@@ -751,7 +750,7 @@ class FavoritesPage extends StatelessWidget {
                     size: 30,
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 15,
                 ),
                 GestureDetector(
@@ -798,10 +797,9 @@ class CheckoutPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final cartProvider = Provider.of<CartProvider>(context);
     final List<ShoeItemData> cartItems = cartProvider.cartItems;
-    double total = 0;
 
     return Scaffold(
-      backgroundColor: Color(0xff1a1a1a),
+      backgroundColor: const Color(0xff1a1a1a),
       appBar: AppBar(
         toolbarHeight: 80,
         elevation: 0,
@@ -888,7 +886,7 @@ class CheckoutPage extends StatelessWidget {
 }
 
 class FavoritesProvider with ChangeNotifier {
-  List<ShoeItemData> _favorites = [];
+  final List<ShoeItemData> _favorites = [];
 
   List<ShoeItemData> get favorites => _favorites;
 
@@ -915,7 +913,7 @@ class FavoritesProvider with ChangeNotifier {
 }
 
 class CartProvider with ChangeNotifier {
-  List<ShoeItemData> _cartItems = [];
+  final List<ShoeItemData> _cartItems = [];
 
   List<ShoeItemData> get cartItems => _cartItems;
 
